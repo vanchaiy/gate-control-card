@@ -1,9 +1,15 @@
 {
   "name": "Gate Control Card",
   "content_in_root": false,
+  "filename": "gate-control-card.js",
   "render_readme": true,
-  "description": "Smart gate control card with beautiful status graphics displaying gate status and control buttons for open, close, and stop actions.",
-  "documentation": "https://github.com/wanchaiy/gate-control-card",
-  "type": "lovelace",
-  "categories": ["card"]
+  "description": "Realistic smart gate control card for Home Assistant",
+  "domains": ["lovelace"],
+  "country": "th",
+  "resources": [
+    {
+      "type": "module",
+      "url": "https://github.com/vanchaiy/gate-control-card/releases/latest/download/gate-control-card.js"
+    }
+  ]
 }
