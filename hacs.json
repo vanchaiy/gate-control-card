@@ -3,7 +3,7 @@
   "content_in_root": false,
   "filename": "gate-control-card.js",
   "render_readme": true,
-  "description": "Realistic smart gate control card for Home Assistant",
+  "description": "Realistic smart gate control card for Home Assistant 🖼️ Realistic gate status visuals • 🎮 Open/Close/Stop controls • 📡 Live stream with fallback • 🧼 No branding • ⚙️ YAML configurable",
   "domains": ["lovelace"],
   "country": "th",
   "resources": [
@@ -13,3 +13,4 @@
     }
   ]
 }
+
