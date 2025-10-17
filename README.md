@@ -14,9 +14,9 @@ A custom Home Assistant Lovelace card for controlling smart gates with realistic
 
 Screenshots are located in the `screen sample` folder. Here's a preview:
 
-![Gate Closed](./screen%20sample/gate-closed.png)
-![Gate Opening](./screen%20sample/gate-opening.png)
-![Gate Open](./screen%20sample/gate-open.png)
+![Gate Screen](./screen%20sample/Screen_Recording_20251017_205921_Chrome.gif)
+![Gate Screen](./screen%20sample/Screen_Recording_20251017_205921_Chrome.gif)
+
 
 ## 🛠️ Installation
 
