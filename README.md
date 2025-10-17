@@ -1,20 +1,21 @@
-# Gate Control Card
+# 🚪 Gate Control Card
 
-A custom Home Assistant Lovelace card for controlling smart gates with realistic visuals and intuitive feedback. Designed for clarity, minimalism, and immersive UI experience.
+A custom Lovelace card for Home Assistant that provides a visually immersive and intuitive interface for controlling smart gates. Designed with realism, responsiveness, and customization in mind—no branding, just pure user experience.
 
-## 🌟 Features
+## ✨ Features
 
-- 🖼️ **Realistic status graphics**: Wide-perspective visuals with grass, road, and gate elements for immersive feedback.
-- 🎮 **Control buttons**: Open, Close, and Stop actions with smooth animations.
-- 📡 **Live camera stream integration**: Supports fallback images and animated loading states for slow or unavailable streams.
-- 🧼 **Clean design**: No branding or logos—just pure user-focused interface.
-- ⚙️ **Fully customizable**: YAML-driven configuration for maximum flexibility.
+- 🖼️ **Realistic gate status visuals** — Wide-perspective images with grass, road, and gate elements.
+- 🎞️ **Live stream support** — Refreshes every 15 seconds with fallback image logic.
+- 🧼 **Minimalist design** — No logos or branding; clean and user-focused.
+- 🎮 **Interactive controls** — OPEN, STOP, and CLOSE buttons with ripple animation and status feedback.
+- ⚙️ **Flexible configuration** — Customize icons, labels, and image paths via YAML.
+- 🧠 **Smart entity handling** — Buttons auto-disable if entities are unavailable.
 
 ## 📸 Sample Screenshots
 
-Screenshots are located in the `screen sample` folder. Here's a preview:
+Located in the `screen sample` folder:
 
-![Gate Screen](./screen%20sample/Screen_Recording_20251017_205923_Chrome.gif)
+![Gate Screen](./screen%20sample/Screen_Recording_20251017_210023_Chrome.gif)
 ![Gate Screen](./screen%20sample/Screen_Recording_20251017_205921_Chrome.gif)
 
 
@@ -25,9 +26,73 @@ Screenshots are located in the `screen sample` folder. Here's a preview:
 1. Download `gate-control-card.js` from the `dist` folder.
 2. Place it in your Home Assistant `www` directory.
 3. Add the following to your `configuration.yaml` or Lovelace resources:
-
+4. Copy the  `images ` in the image folder to  `www/image/gate `
+   
 ```yaml
 resources:
   - url: /local/gate-control-card.js
     type: module
+```
+
+HACS (Coming Soon)
+Support for HACS installation is planned in future releases.
+
+🧾 Configuration
+
+```yaml
+type: custom:gate-control-card
+status_entity: sensor.gate_status
+open_entity: switch.gate_open
+close_entity: switch.gate_close
+stop_entity: switch.gate_stop
+
+#<--- Options --->
+
+image_hide: ( true or false )
+image_state:
+  open: ( url or local )
+  closed: ( url or local )
+  stop: ( url or local )
+  opening: ( url or local )
+  closing: ( url or local )
+  offline: ( url or local )
+buttons:
+  open:
+    name: เปิด
+    icon: mdi:arrow-expand-horizontal
+  stop:
+    name: หยุด
+    icon: mdi:stop
+  close:
+    name: ปิด
+    icon: mdi:arrow-collapse-horizontal
+```
+
+🔧 Options
+|  |  |  | 
+| status_entity |  | sensor.gate_status | 
+| open_entity |  | switch.gate_open | 
+| close_entity |  | switch.gate_close | 
+| stop_entity |  | switch.gate_stop | 
+| image_hide |  | false | 
+| image_state |  |  | 
+| buttons |  |  | 
+
+
+📦 Version
+Current version: v1.0.1
+Last updated: October 2025
+
+🧑‍💻 Developer Notes
+- Written in TypeScript using LitElement.
+- Uses custom-card-helpers for Home Assistant integration.
+- Refreshes stream key every 15 seconds to prevent frozen images.
+- Ripple animation and button styling inspired by Material Design.
+- 
+🙌 Credits
+Created by wanchaiy
+Crafted for smart home enthusiasts who value realism, responsiveness, and clean design.
+
+
+
 
