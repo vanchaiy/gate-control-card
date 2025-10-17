@@ -1,0 +1,9 @@
+{
+  "name": "Gate Control Card",
+  "content_in_root": false,
+  "render_readme": true,
+  "description": "Smart gate control card with beautiful status graphics displaying gate status and control buttons for open, close, and stop actions.",
+  "documentation": "https://github.com/wanchaiy/gate-control-card",
+  "type": "lovelace",
+  "categories": ["card"]
+}
