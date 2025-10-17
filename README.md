@@ -51,7 +51,7 @@ resources:
     type: module
 ```
 
-🧾 Configuration
+🧾 Configuration Example
 
 ```yaml
 type: custom:gate-control-card
@@ -62,7 +62,10 @@ stop_entity: switch.gate_stop
 
 #<--- Options --->
 
-image_hide: ( true or false )
+# Hide the animation to show only the buttons for use with the camera.
+image_hide: ( true or false ) 
+
+# If you want to change the animation image, you can add and edit it in the section.
 image_state:
   open: ( url or local )
   closed: ( url or local )
@@ -70,6 +73,8 @@ image_state:
   opening: ( url or local )
   closing: ( url or local )
   offline: ( url or local )
+
+# Edit the button text and icon
 buttons:
   open:
     name: เปิด
@@ -81,6 +86,33 @@ buttons:
     name: ปิด
     icon: mdi:arrow-collapse-horizontal
 ```
+
+
+📷 Example of using with Picture entity card to pull images from your camera.
+
+```yaml
+type: grid
+cards:
+  - type: heading
+    heading_style: title
+    heading: หน้าบ้าน
+    icon: mdi:home-roof
+  - show_state: true
+    show_name: true
+    camera_view: live
+    fit_mode: cover
+    type: picture-entity
+    image: https://demo.home-assistant.io/stub_config/bedroom.png
+    camera_image: camera.wip30299u_media_profile1
+    entity: sensor.samart_gate_gate_status
+  - type: custom:gate-control-card
+    status_entity: sensor.samart_gate_gate_status
+    open_entity: switch.samart_gate_open
+    stop_entity: switch.samart_gate_stop
+    close_entity: switch.samart_gate_closed
+    image_hide: true
+```
+
 
 🔧 Options
 |  |  |  | 
