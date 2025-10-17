@@ -27,15 +27,29 @@ Located in the `screen sample` folder:
 2. Place it in your Home Assistant `www` directory.
 3. Add the following to your `configuration.yaml` or Lovelace resources:
 4. Copy the  `images ` in the image folder to  `www/image/gate `
-   
+
 ```yaml
 resources:
   - url: /local/gate-control-card.js
     type: module
 ```
 
-HACS (Coming Soon)
-Support for HACS installation is planned in future releases.
+
+🧪 Installation via HACS
+Installation instructions for users:
+1. Open HACS in Home Assistant.
+2. Go to "Frontend" → Three-dot menu → "Custom repositories."
+3. Enter the repo URL:
+4. Select the type: Lovelace.
+5. Press "Add" → a card will appear in the list → Press "Install."
+6. Add the resource to Lovelace:
+7. Copy the  `images ` in the image folder to  `www/image/gate `
+
+```yaml
+resources:
+  - url: /hacsfiles/gate-control-card/gate-control-card.js
+    type: module
+```
 
 🧾 Configuration
 
@@ -92,7 +106,4 @@ Last updated: October 2025
 🙌 Credits
 Created by wanchaiy
 Crafted for smart home enthusiasts who value realism, responsiveness, and clean design.
-
-
-
 
