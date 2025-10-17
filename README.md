@@ -39,8 +39,8 @@ resources:
 Installation instructions for users:
 1. Open HACS in Home Assistant.
 2. Go to "Frontend" → Three-dot menu → "Custom repositories."
-3. Enter the repo URL:
-4. Select the type: Lovelace.
+3. Enter the repo URL: https://github.com/vanchaiy/gate-control-card
+4. Select the type: Dashboard.
 5. Press "Add" → a card will appear in the list → Press "Install."
 6. Add the resource to Lovelace:
 7. Copy the  `images ` in the image folder to  `www/image/gate `
