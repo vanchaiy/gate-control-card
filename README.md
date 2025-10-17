@@ -51,6 +51,9 @@ resources:
     type: module
 ```
 
+
+
+
 🧾 Configuration Example
 
 ```yaml
@@ -86,6 +89,8 @@ buttons:
     name: ปิด
     icon: mdi:arrow-collapse-horizontal
 ```
+
+
 
 
 📷 Example of using with Picture entity card to pull images from your camera.
