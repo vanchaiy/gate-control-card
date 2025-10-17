@@ -107,3 +107,5 @@ Last updated: October 2025
 Created by wanchaiy
 Crafted for smart home enthusiasts who value realism, responsiveness, and clean design.
 
+
+#Smart home #Gate control #Lovelace card #Home Assistant #Remote control door #Wifi control door
