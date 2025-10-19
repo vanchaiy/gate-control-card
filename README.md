@@ -2,6 +2,10 @@
 
 A custom Lovelace card for Home Assistant that provides a visually immersive and intuitive interface for controlling smart gates. Designed with realism, responsiveness, and customization in mind—no branding, just pure user experience.
 
+## 🚀If you need ready-to-use Hardware
+Buy now -> https://github.com/vanchaiy/smart-gate-module
+
+
 ## ✨ Features
 
 - 🖼️ **Realistic gate status visuals** — Wide-perspective images with grass, road, and gate elements.
