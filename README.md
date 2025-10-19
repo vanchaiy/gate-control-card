@@ -149,4 +149,27 @@ Created by wanchaiy
 Crafted for smart home enthusiasts who value realism, responsiveness, and clean design.
 
 
-#Smart home #Gate control #Lovelace card #Home Assistant #Remote control door #Wifi control door
+## 🔎 แฮชแท็ก
+- #SmartHomeThailand
+- #TuyaSmartModule
+- #ESP8266Automation
+- #HomeAssistantTH
+- #SmartGateController
+- #เปิดปิดประตูอัตโนมัติ
+- #ประตูบ้านอัจฉริยะ
+- #ควบคุมผ่านมือถือ
+- #แจ้งเตือนเข้าออกบ้าน
+- #ระบบรักษาความปลอดภัยบ้าน
+- #อุปกรณ์สมาร์ทโฮม
+- #ขายอุปกรณ์สมาร์ทโฮม
+- #สมาร์ทโฮมราคาถูก
+- #SmartGateModule
+- #TuyaGateSwitch
+- #DIYSmartHome
+- #SmartHomeMadeEasy
+- #ThaiMaker
+- #IoTThailand
+- #บ้านอัจฉริยะ
+- #ประตูรีโมต
+
+
