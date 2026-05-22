@@ -62,10 +62,10 @@ resources:
 
 ```yaml
 type: custom:gate-control-card
-status_entity: sensor.gate_status
-open_entity: switch.gate_open
-close_entity: switch.gate_close
-stop_entity: switch.gate_stop
+status_entity: sensor.ha_sgm_2026_status
+open_entity: button.ha_sgm_2026_open
+close_entity: button.ha_sgm_2026_close
+stop_entity: button.ha_sgm_2026_stop
 
 #<--- Options --->
 
@@ -115,10 +115,10 @@ cards:
     camera_image: camera.wip30299u_media_profile1
     entity: sensor.samart_gate_gate_status
   - type: custom:gate-control-card
-    status_entity: sensor.samart_gate_gate_status
-    open_entity: switch.samart_gate_open
-    stop_entity: switch.samart_gate_stop
-    close_entity: switch.samart_gate_closed
+    status_entity: sensor.ha_sgm_2026_status
+    open_entity: button.ha_sgm_2026_open
+    close_entity: button.ha_sgm_2026_close
+    stop_entity: button.ha_sgm_2026_stop
     image_hide: true
 ```
 
