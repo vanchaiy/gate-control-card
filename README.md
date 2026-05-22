@@ -102,18 +102,15 @@ buttons:
 ```yaml
 type: grid
 cards:
-  - type: heading
-    heading_style: title
-    heading: หน้าบ้าน
-    icon: mdi:home-roof
   - show_state: true
     show_name: true
-    camera_view: live
+    camera_view: auto
     fit_mode: cover
+    name: Gate Status
     type: picture-entity
     image: https://demo.home-assistant.io/stub_config/bedroom.png
-    camera_image: camera.wip30299u_media_profile1
-    entity: sensor.samart_gate_gate_status
+    camera_image: camera.c3tn_bb0839328
+    entity: sensor.ha_sgm_2026_status
   - type: custom:gate-control-card
     status_entity: sensor.ha_sgm_2026_status
     open_entity: button.ha_sgm_2026_open
