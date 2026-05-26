@@ -1,6 +1,14 @@
 # 🚪 HomeAssistant Gate Control Card
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-ESP32-red.svg)](https://www.espressif.com/)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-compatible-41BDF5?logo=homeassistant)](https://www.home-assistant.io/)
+[![Protocol](https://img.shields.io/badge/Protocol-WebSocket%20%7C%20Webhook%20%7C%20UART-green.svg)]()
+
+
 A custom Lovelace card for Home Assistant that provides a visually immersive and intuitive interface for controlling smart gates. Designed with realism, responsiveness, and customization in mind—no branding, just pure user experience.
+
+> **Keywords:** ESP32 gate controller · WebSocket real-time sensor · Webhook LINE notify · UART serial protocol · Home Assistant MQTT · smart gate IoT · ประตูอัตโนมัติ
 
 ## 🚀If you need ready-to-use Hardware
 Buy now -> Coming soon
@@ -141,32 +149,20 @@ Last updated: October 2025
 - Refreshes stream key every 15 seconds to prevent frozen images.
 - Ripple animation and button styling inspired by Material Design.
 - 
-🙌 Credits
-Created by wanchaiy
-Crafted for smart home enthusiasts who value realism, responsiveness, and clean design.
+---
 
+## Related
 
-## 🔎 แฮชแท็ก
-- #SmartHomeThailand
-- #TuyaSmartModule
-- #ESP8266Automation
-- #HomeAssistantTH
-- #SmartGateController
-- #เปิดปิดประตูอัตโนมัติ
-- #ประตูบ้านอัจฉริยะ
-- #ควบคุมผ่านมือถือ
-- #แจ้งเตือนเข้าออกบ้าน
-- #ระบบรักษาความปลอดภัยบ้าน
-- #อุปกรณ์สมาร์ทโฮม
-- #ขายอุปกรณ์สมาร์ทโฮม
-- #สมาร์ทโฮมราคาถูก
-- #SmartGateModule
-- #TuyaGateSwitch
-- #DIYSmartHome
-- #SmartHomeMadeEasy
-- #ThaiMaker
-- #IoTThailand
-- #บ้านอัจฉริยะ
-- #ประตูรีโมต
+- [HA-SGM-2026 API Examples](https://github.com/vanchaiy/HA-SGM-2026-API-Examples) — HA-SGM-2026 API Examples [ REST API · WebSocket · Webhook · UART ]
+- [Home Assistant](https://www.home-assistant.io/) — open source home automation
+- [LINE Messaging API](https://developers.line.biz/en/docs/messaging-api/) — LINE bot integration
 
+---
 
+## License
+
+MIT
+
+---
+
+*HA-SGM-2026 · ESP32 Smart Gate · WebSocket · Webhook · UART · Home Assistant · MQTT · LINE Notify · IoT · ประตูอัตโนมัติ*
