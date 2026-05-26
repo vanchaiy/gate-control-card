@@ -1,4 +1,4 @@
-# 🚪 Gate Control Card
+# 🚪 HomeAssistant Gate Control Card
 
 A custom Lovelace card for Home Assistant that provides a visually immersive and intuitive interface for controlling smart gates. Designed with realism, responsiveness, and customization in mind—no branding, just pure user experience.
 
