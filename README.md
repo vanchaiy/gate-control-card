@@ -3,7 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-ESP32-red.svg)](https://www.espressif.com/)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-compatible-41BDF5?logo=homeassistant)](https://www.home-assistant.io/)
-[![Protocol](https://img.shields.io/badge/Protocol-WebSocket%20%7C%20Webhook%20%7C%20UART-green.svg)]()
 
 
 A custom Lovelace card for Home Assistant that provides a visually immersive and intuitive interface for controlling smart gates. Designed with realism, responsiveness, and customization in mind—no branding, just pure user experience.
